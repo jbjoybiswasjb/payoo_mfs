@@ -12,6 +12,8 @@ document.getElementById('login_button').addEventListener('click', function (even
 
     // Validate phone and pin number. This is not ideal way. It's a bad way.
     if (mobileNumber === '018' && pinNumber === '123') {
+
+        // Go to homepage.
         window.location.href = "/home_page.html";
     }
     else {
