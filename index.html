@@ -37,6 +37,9 @@
                         colors: {
                             white: '#fff',
                             black: '#000',
+                            heading: 'rgb(8, 8, 8)',
+                            button: 'rgb(8, 116, 242)',
+                            input_field: 'rgb(244, 245, 247)',
                         },
 
                         // Font family.
@@ -89,25 +92,25 @@
 
                             <div class="hero-content flex-col lg:flex-row-reverse">
                                 <div class="card bg-base-100 w-full shrink-0 shadow-2xl">
-                                    <form class="card-body p-3 md:p-4 lg:p-[2rem]">
+                                    <form class="card-body p-8 md:p-4 lg:p-[2rem]">
                                         <div class="form-control">
                                             <label class="label">
-                                                <span class="label-text">Mobile Number</span>
+                                                <span class="label-text font-medium text-base text-heading">Mobile Number</span>
                                             </label>
                                             <input type="text" placeholder="Enter your number"
-                                                class="input input-bordered" required />
+                                                class="input input-bordered rounded-[2rem] px-5 py-4" required />
                                         </div>
                                         <div class="form-control">
                                             <label class="label">
-                                                <span class="label-text">4 Digit Pin</span>
+                                                <span class="label-text font-medium text-base text-heading">4 Digit Pin</span>
                                             </label>
                                             <input type="number" placeholder="Enter 4 Digit Pin"
-                                                class="input input-bordered" required />
+                                                class="input input-bordered rounded-[2rem] px-5 py-4" required />
                                             <label class="label">
                                             </label>
                                         </div>
                                         <div class="form-control mt-6">
-                                            <button class="btn btn-primary">Login</button>
+                                            <button class="btn h-auto min-h-auto btn-primary bg-button border-button text-white font-semibold text-xl rounded-[2rem] px-5 py-4">Login</button>
                                         </div>
                                     </form>
                                 </div>
