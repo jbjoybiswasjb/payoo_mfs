@@ -94,14 +94,17 @@
                             <!-- Payoo input. -->
                             <div class="hero-content flex-col lg:flex-row-reverse">
                                 <div class="card bg-base-100 w-full shrink-0 shadow-2xl">
+
                                     <form class="card-body p-8 md:p-4 lg:p-[2rem]">
+
                                         <div class="form-control">
                                             <label class="label">
                                                 <span class="label-text font-medium text-base text-heading">Mobile Number</span>
                                             </label>
-                                            <input type="text" placeholder="Enter your number"
+                                            <input id="mobile_number_field" type="text" placeholder="Enter your number"
                                                 class="input input-bordered rounded-[2rem] px-5 py-4 bg-input_field border-none" required />
                                         </div>
+
                                         <div class="form-control">
                                             <label class="label">
                                                 <span class="label-text font-medium text-base text-heading">4 Digit Pin</span>
@@ -111,10 +114,13 @@
                                             <label class="label">
                                             </label>
                                         </div>
+
                                         <div class="form-control mt-6">
-                                            <button class="btn h-auto min-h-auto btn-primary bg-button border-button text-white font-semibold text-xl rounded-[2rem] px-5 py-4">Login</button>
+                                            <button class="btn h-auto min-h-auto btn-primary bg-button border-button text-white font-semibold text-xl rounded-[2rem] px-5 py-4" id="login_button">Login</button>
                                         </div>
+
                                     </form>
+
                                 </div>
                             </div>
 
@@ -142,6 +148,7 @@
         -->
         <footer></footer>
 
+        <script src="js/login.js"></script>
 
         <!-- Font awesome kit. -->
         <script src="https://kit.fontawesome.com/1bbb5634e6.js" crossorigin="anonymous"></script>
