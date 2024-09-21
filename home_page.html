@@ -84,15 +84,16 @@
                     <div class="camera"></div>
                     <div class="display">
                         <div
-                            class="artboard artboard-demo w-auto lg:w-[28.125rem] h-auto lg:h-[58.25rem] py-36 lg:py-0 relative shadow-none bg-white">
+                            class="artboard w-auto lg:w-[28.125rem] h-auto lg:h-[58.25rem] py-36 lg:py-0 relative shadow-none bg-white">
 
-                            
+
                             <header>
                                 <!-- 
-                                                    Phone icon section.
-                                =====================================================
-                                                            -->
-                                <section class="absolute top-8 left-0 px-8 flex justify-between w-full text-base text-heading">
+                                                        Phone icon section.
+                                    =====================================================
+                                -->
+                                <section
+                                    class="absolute top-8 left-0 px-8 flex justify-between w-full text-base text-heading">
                                     <div>
                                         <time datetime="">9:41</time>
                                     </div>
@@ -113,13 +114,30 @@
                                                     Payoo section.
                                 =====================================================
                             -->
-                            <section class="flex justify-center flex-col">
+                            <section class="flex justify-center flex-col pt-20 px-4 mb-10">
 
                                 <!-- Payoo input. -->
                                 <div class="hero-content flex-col lg:flex-row-reverse">
                                     <div class="card bg-base-100 w-full shrink-0">
 
-                                        <h2>oeoe</h2>
+                                        <!-- Balance and logout -->
+                                        <section class="flex justify-between items-center">
+                                            <div class="flex items-center gap-2">
+                                                <div class="w-1/6">
+                                                    <img src="media/images/logo.png" alt="logo" title="logo">
+                                                </div>
+                                                <div>
+                                                    <b class="font-extrabold text-lg text-heading/90">$145000</b>
+                                                    <p class="text-heading/50 text-sm font-normal">Available Balance</p>
+                                                </div>
+                                            </div>
+                                            <button class="flex items-center bg-white px-3 py-2 border btn flex-nowrap h-auto min-h-auto w-4/12">
+                                                <span>
+                                                    <img src="media/images/logout_logo.png" alt="logout logo" title="logout logo" class="w-10">
+                                                </span>
+                                                <span class="text-heading/50 text-base font-normal w-28 flex justify-end">Log Out</span>
+                                            </button>
+                                        </section>
 
                                     </div>
                                 </div>
