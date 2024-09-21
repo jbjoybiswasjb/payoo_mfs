@@ -194,79 +194,228 @@
                             -->
                             <section class="px-8 bg-login_bg py-8 pb-20">
                             
-                                <!-- heading. -->
-                                <div class="flex justify-between items-center">
-                                    <h2 class="font-semibold text-lg text-heading/90">Latest Payment</h2>
-                                    <a href="#" class="font-normal text-heading/50 text-sm">View All</a>
-                                </div>
-                            
-                            
-                                <!-- Details. -->
-                                <div class="pt-4">
-                                    <div class="grid grid-cols-1 gap-3">
-
-                                        <div class="py-4 px-3 flex justify-between items-center border rounded-xl border-heading/10 bg-white">
-                                            <a href="#" class="flex items-center gap-2">
-                                                <div class="rounded-[2rem] p-3 bg-login_bg">
-                                                    <img src="media/images/add_money.png" alt="simple_icon" class="w-10 h-10">
-                                                </div>
-                                                <div class="text-heading/70">
-                                                    <strong class="mb-2 text-base font-semibold">Electricity Bill</strong>
-                                                    <p class="text-xs font-normal">Today 01:44 AM</p>
-                                                </div>
-                                            </a>
-                                            <button class="text-2xl text-heading/30">
-                                                <i class="fa-solid fa-ellipsis-vertical"></i>
-                                            </button>
-                                        </div>
-
-                                        <div class="py-4 px-3 flex justify-between items-center border rounded-xl border-heading/10 bg-white">
-                                            <a href="#" class="flex items-center gap-2">
-                                                <div class="rounded-[2rem] p-3 bg-login_bg">
-                                                    <img src="media/images/add_money.png" alt="simple_icon" class="w-10 h-10">
-                                                </div>
-                                                <div class="text-heading/70">
-                                                    <strong class="mb-2 text-base font-semibold">Bank Deposit</strong>
-                                                    <p class="text-xs font-normal">Today 01:44 AM</p>
-                                                </div>
-                                            </a>
-                                            <button class="text-2xl text-heading/30">
-                                                <i class="fa-solid fa-ellipsis-vertical"></i>
-                                            </button>
-                                        </div>
-
-                                        <div class="py-4 px-3 flex justify-between items-center border rounded-xl border-heading/10 bg-white">
-                                            <a href="#" class="flex items-center gap-2">
-                                                <div class="rounded-[2rem] p-3 bg-login_bg">
-                                                    <img src="media/images/add_money.png" alt="simple_icon" class="w-10 h-10">
-                                                </div>
-                                                <div class="text-heading/70">
-                                                    <strong class="mb-2 text-base font-semibold">Mobile Recharge</strong>
-                                                    <p class="text-xs font-normal">Today 01:44 AM</p>
-                                                </div>
-                                            </a>
-                                            <button class="text-2xl text-heading/30">
-                                                <i class="fa-solid fa-ellipsis-vertical"></i>
-                                            </button>
-                                        </div>
-
-                                        <div class="py-4 px-3 flex justify-between items-center border rounded-xl border-heading/10 bg-white">
-                                            <a href="#" class="flex items-center gap-2">
-                                                <div class="rounded-[2rem] p-3 bg-login_bg">
-                                                    <img src="media/images/add_money.png" alt="simple_icon" class="w-10 h-10">
-                                                </div>
-                                                <div class="text-heading/70">
-                                                    <strong class="mb-2 text-base font-semibold">Gas Bill</strong>
-                                                    <p class="text-xs font-normal">Today 01:44 AM</p>
-                                                </div>
-                                            </a>
-                                            <button class="text-2xl text-heading/30">
-                                                <i class="fa-solid fa-ellipsis-vertical"></i>
-                                            </button>
-                                        </div>
-
+                                <!-- 
+                                            Latest payment section.
+                                    =======================================
+                                -->
+                                <section class="hidden">
+                                    <!-- heading. -->
+                                    <div class="flex justify-between items-center">
+                                        <h2 class="font-semibold text-lg text-heading/90">Latest Payment</h2>
+                                        <a href="#" class="font-normal text-heading/50 text-sm">View All</a>
                                     </div>
-                                </div>
+                                    
+                                    
+                                    <!-- Details. -->
+                                    <div class="pt-4">
+                                        <div class="grid grid-cols-1 gap-3">
+                                    
+                                            <div class="py-4 px-3 flex justify-between items-center border rounded-xl border-heading/10 bg-white">
+                                                <a href="#" class="flex items-center gap-2">
+                                                    <div class="rounded-[2rem] p-3 bg-login_bg">
+                                                        <img src="media/images/add_money.png" alt="simple_icon" class="w-10 h-10">
+                                                    </div>
+                                                    <div class="text-heading/70">
+                                                        <strong class="mb-2 text-base font-semibold">Electricity Bill</strong>
+                                                        <p class="text-xs font-normal">Today 01:44 AM</p>
+                                                    </div>
+                                                </a>
+                                                <button class="text-2xl text-heading/30">
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </button>
+                                            </div>
+                                    
+                                            <div class="py-4 px-3 flex justify-between items-center border rounded-xl border-heading/10 bg-white">
+                                                <a href="#" class="flex items-center gap-2">
+                                                    <div class="rounded-[2rem] p-3 bg-login_bg">
+                                                        <img src="media/images/add_money.png" alt="simple_icon" class="w-10 h-10">
+                                                    </div>
+                                                    <div class="text-heading/70">
+                                                        <strong class="mb-2 text-base font-semibold">Bank Deposit</strong>
+                                                        <p class="text-xs font-normal">Today 01:44 AM</p>
+                                                    </div>
+                                                </a>
+                                                <button class="text-2xl text-heading/30">
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </button>
+                                            </div>
+                                    
+                                            <div class="py-4 px-3 flex justify-between items-center border rounded-xl border-heading/10 bg-white">
+                                                <a href="#" class="flex items-center gap-2">
+                                                    <div class="rounded-[2rem] p-3 bg-login_bg">
+                                                        <img src="media/images/add_money.png" alt="simple_icon" class="w-10 h-10">
+                                                    </div>
+                                                    <div class="text-heading/70">
+                                                        <strong class="mb-2 text-base font-semibold">Mobile Recharge</strong>
+                                                        <p class="text-xs font-normal">Today 01:44 AM</p>
+                                                    </div>
+                                                </a>
+                                                <button class="text-2xl text-heading/30">
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </button>
+                                            </div>
+                                    
+                                            <div class="py-4 px-3 flex justify-between items-center border rounded-xl border-heading/10 bg-white">
+                                                <a href="#" class="flex items-center gap-2">
+                                                    <div class="rounded-[2rem] p-3 bg-login_bg">
+                                                        <img src="media/images/add_money.png" alt="simple_icon" class="w-10 h-10">
+                                                    </div>
+                                                    <div class="text-heading/70">
+                                                        <strong class="mb-2 text-base font-semibold">Gas Bill</strong>
+                                                        <p class="text-xs font-normal">Today 01:44 AM</p>
+                                                    </div>
+                                                </a>
+                                                <button class="text-2xl text-heading/30">
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </button>
+                                            </div>
+                                    
+                                        </div>
+                                    </div>
+                                </section>
+
+
+
+
+
+                                <!-- 
+                                                Add money section.
+                                    ========================================
+                                -->
+                                <section class="">
+                                    <!-- heading. -->
+                                    <div class="flex justify-between items-center">
+                                        <h2 class="font-semibold text-lg text-heading/90">Add Money</h2>
+                                    </div>
+                                    
+                                    
+                                    <!-- Payoo input. Add money. -->
+                                    <div class="hero-content flex-col lg:flex-row-reverse p-0 mt-8">
+                                        <div class="card bg-base-100 w-full shrink-0">
+                                    
+                                            <form class="card-body p-8 md:p-4 lg:p-[2rem]">
+                                    
+                                                <div class="form-control">
+                                                    <label class="label">
+                                                        <span class="label-text font-medium text-base text-heading/70">Select A Bank</span>
+                                                    </label>
+                                                    <select id="select_bank" name="banks"
+                                                        class="input input-bordered rounded-[2rem] px-5 bg-input_field border-none text-heading/60">
+                                                        <option selected>Select bank <span>&#8595;</span></option>
+                                                        <option value="city_bank">City bank</option>
+                                                        <option value="rupali_bank">Rupali bank</option>
+                                                    </select>
+                                                </div>
+                                                
+                                                <div class="form-control">
+                                                    <label class="label">
+                                                        <span class="label-text font-medium text-base text-heading/70">Bank Account Number</span>
+                                                    </label>
+                                                    <input id="bank_account_number" type="number" placeholder="Enter 11 digit account number"
+                                                        class="input input-bordered rounded-[2rem] px-5 py-4 bg-input_field border-none"/>
+                                                </div>
+
+                                                <div class="form-control">
+                                                    <label class="label">
+                                                        <span class="label-text font-medium text-base text-heading/70">Amount to Add</span>
+                                                    </label>
+                                                    <input id="amount_to_add" type="number" placeholder="Add Amount to withdraw"
+                                                        class="input input-bordered rounded-[2rem] px-5 py-4 bg-input_field border-none" />
+                                                </div>
+                                    
+                                                <div class="form-control">
+                                                    <label class="label">
+                                                        <span class="label-text font-medium text-base text-heading/70">4 Digit
+                                                            Pin</span>
+                                                    </label>
+                                                    <input id="pin_number_field" type="number" placeholder="Enter 4 digit pin number"
+                                                        class="input input-bordered rounded-[2rem] px-5 py-4 bg-input_field border-none" required />
+                                                    <label class="label">
+                                                    </label>
+                                                </div>
+                                    
+                                                <div class="form-control mt-6">
+                                                    <button
+                                                        class="btn h-auto min-h-auto btn-primary bg-button border-button text-white font-semibold text-xl rounded-[2rem] px-5 py-4">Add Money</button>
+                                                </div>
+                                    
+                                            </form>
+                                    
+                                        </div>
+                                    </div>
+                                </section>
+
+
+
+
+
+                                <!-- 
+                                                    Add money section.
+                                    ========================================
+                                -->
+                                <section class="hidden">
+                                    <!-- heading. -->
+                                    <div class="flex justify-between items-center">
+                                        <h2 class="font-semibold text-lg text-heading/90">Add Money</h2>
+                                    </div>
+                                
+                                
+                                    <!-- Payoo input. Add money. -->
+                                    <div class="hero-content flex-col lg:flex-row-reverse p-0 mt-8">
+                                        <div class="card bg-base-100 w-full shrink-0">
+                                
+                                            <form class="card-body p-8 md:p-4 lg:p-[2rem]">
+                                
+                                                <div class="form-control">
+                                                    <label class="label">
+                                                        <span class="label-text font-medium text-base text-heading/70">Select A Bank</span>
+                                                    </label>
+                                                    <select id="select_bank" name="banks"
+                                                        class="input input-bordered rounded-[2rem] px-5 bg-input_field border-none text-heading/60">
+                                                        <option selected>Select bank <span>&#8595;</span></option>
+                                                        <option value="city_bank">City bank</option>
+                                                        <option value="rupali_bank">Rupali bank</option>
+                                                    </select>
+                                                </div>
+                                
+                                                <div class="form-control">
+                                                    <label class="label">
+                                                        <span class="label-text font-medium text-base text-heading/70">Bank Account Number</span>
+                                                    </label>
+                                                    <input id="bank_account_number" type="number" placeholder="Enter 11 digit account number"
+                                                        class="input input-bordered rounded-[2rem] px-5 py-4 bg-input_field border-none" />
+                                                </div>
+                                
+                                                <div class="form-control">
+                                                    <label class="label">
+                                                        <span class="label-text font-medium text-base text-heading/70">Amount to Add</span>
+                                                    </label>
+                                                    <input id="amount_to_add" type="number" placeholder="Add Amount to withdraw"
+                                                        class="input input-bordered rounded-[2rem] px-5 py-4 bg-input_field border-none" />
+                                                </div>
+                                
+                                                <div class="form-control">
+                                                    <label class="label">
+                                                        <span class="label-text font-medium text-base text-heading/70">4 Digit
+                                                            Pin</span>
+                                                    </label>
+                                                    <input id="pin_number_field" type="number" placeholder="Enter 4 digit pin number"
+                                                        class="input input-bordered rounded-[2rem] px-5 py-4 bg-input_field border-none" required />
+                                                    <label class="label">
+                                                    </label>
+                                                </div>
+                                
+                                                <div class="form-control mt-6">
+                                                    <button
+                                                        class="btn h-auto min-h-auto btn-primary bg-button border-button text-white font-semibold text-xl rounded-[2rem] px-5 py-4">Add
+                                                        Money</button>
+                                                </div>
+                                
+                                            </form>
+                                
+                                        </div>
+                                    </div>
+                                </section>
                             
                             </section>
 
