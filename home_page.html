@@ -414,7 +414,7 @@
                                                     Get Bonus section.
                                     ========================================
                                 -->
-                                <section class="">
+                                <section class="hidden">
                                     <!-- heading. -->
                                     <div class="flex justify-between items-center">
                                         <h2 class="font-semibold text-lg text-heading/90">Get Bonus</h2>
@@ -440,6 +440,79 @@
                                                 <div class="form-control mt-6">
                                                     <button
                                                         class="btn h-auto min-h-auto btn-primary bg-button border-button text-white font-semibold text-xl rounded-[2rem] px-5 py-4">Get Bonus</button>
+                                                </div>
+                                
+                                            </form>
+                                
+                                        </div>
+                                    </div>
+                                </section>
+
+
+
+
+
+
+
+
+                                <!-- 
+                                                Pay Bill section.
+                                    ========================================
+                                -->
+                                <section>
+                                    <!-- heading. -->
+                                    <div class="flex justify-between items-center">
+                                        <h2 class="font-semibold text-lg text-heading/90">Pay Bill</h2>
+                                    </div>
+                                
+                                
+                                    <!-- Payoo input. Pay Bill. -->
+                                    <div class="hero-content flex-col lg:flex-row-reverse p-0 mt-8">
+                                        <div class="card bg-base-100 w-full shrink-0">
+                                
+                                            <form class="card-body p-8 md:p-4 lg:p-[2rem]">
+                                
+                                                <div class="form-control">
+                                                    <label class="label">
+                                                        <span class="label-text font-medium text-base text-heading/70">Select To Pay</span>
+                                                    </label>
+                                                    <select id="select_bank" name="banks"
+                                                        class="input input-bordered rounded-[2rem] px-5 bg-input_field border-none text-heading/60">
+                                                        <option selected>Select bank <span>&#8595;</span></option>
+                                                        <option value="city_bank">City bank</option>
+                                                        <option value="rupali_bank">Rupali bank</option>
+                                                    </select>
+                                                </div>
+                                
+                                                <div class="form-control">
+                                                    <label class="label">
+                                                        <span class="label-text font-medium text-base text-heading/70">Biller Account Number</span>
+                                                    </label>
+                                                    <input id="biller_account_number" type="number" placeholder="Enter account number"
+                                                        class="input input-bordered rounded-[2rem] px-5 py-4 bg-input_field border-none" />
+                                                </div>
+                                
+                                                <div class="form-control">
+                                                    <label class="label">
+                                                        <span class="label-text font-medium text-base text-heading/70">Amount to Pay</span>
+                                                    </label>
+                                                    <input id="amount_to_pay" type="number" placeholder="Add Amount to pay"
+                                                        class="input input-bordered rounded-[2rem] px-5 py-4 bg-input_field border-none" />
+                                                </div>
+                                
+                                                <div class="form-control">
+                                                    <label class="label">
+                                                        <span class="label-text font-medium text-base text-heading/70">Pin Number</span>
+                                                    </label>
+                                                    <input id="pin_number_field" type="number" placeholder="Enter 4 digit pin number"
+                                                        class="input input-bordered rounded-[2rem] px-5 py-4 bg-input_field border-none" required />
+                                                    <label class="label">
+                                                    </label>
+                                                </div>
+                                
+                                                <div class="form-control mt-6">
+                                                    <button
+                                                        class="btn h-auto min-h-auto btn-primary bg-button border-button text-white font-semibold text-xl rounded-[2rem] px-5 py-4">Pay Now</button>
                                                 </div>
                                 
                                             </form>
