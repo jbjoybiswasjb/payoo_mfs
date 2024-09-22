@@ -45,3 +45,14 @@ document.getElementById('add_money_button')
         }
 
     })
+
+
+
+
+    // Log out.
+document.getElementById('log_out_button')
+    .addEventListener('click', function(){
+
+        // Go to log in page or index page.
+        window.location.href = "/index.html";
+    })
