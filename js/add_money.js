@@ -11,7 +11,7 @@ document.getElementById('add_money_button')
         const amountToAddString = document.getElementById('amount_to_add').value;
         console.log(typeof amountToAddString);
 
-        // Wrong way to valdate pin number.
+        // Wrong way to validate pin number.
         if (pinNumber === '123') {
 
             // Get main balance.
