@@ -13,11 +13,11 @@ document.getElementById('add_money_button')
 
             // Get main balance.
             const mainBalanceString = document.getElementById('main_balance_amount').innerText;
-            const mainBalanceNumber = parseInt(mainBalanceString);
+            const mainBalanceNumber = parseFloat(mainBalanceString);
 
             // Get amount to add.
             const amountToAddString = document.getElementById('amount_to_add').value;
-            const amountToAddNumber = parseInt(amountToAddString);
+            const amountToAddNumber = parseFloat(amountToAddString);
 
 
             const afterAddMoney = mainBalanceNumber + amountToAddNumber;
