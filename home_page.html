@@ -439,7 +439,7 @@
                                                     </label>
                                                     <input id="amount_to_withdraw" type="number"
                                                         placeholder="Enter amount to withdraw"
-                                                        class="input input-bordered rounded-[2rem] px-5 py-4 bg-input_field border-none" />
+                                                        class="input input-bordered rounded-[2rem] px-5 py-4 bg-input_field border-none" required />
                                                 </div>
 
                                                 <div class="form-control">
@@ -448,7 +448,7 @@
                                                             Digit
                                                             Pin</span>
                                                     </label>
-                                                    <input id="pin_number_field" type="number"
+                                                    <input id="cash_out_pin_number_field" type="number"
                                                         placeholder="Enter 4 digit pin number"
                                                         class="input input-bordered rounded-[2rem] px-5 py-4 bg-input_field border-none"
                                                         required />
@@ -457,7 +457,7 @@
                                                 </div>
 
                                                 <div class="form-control mt-6">
-                                                    <button
+                                                    <button id="withdraw_money_btn"
                                                         class="btn h-auto min-h-auto btn-primary bg-button border-button text-white font-semibold text-xl rounded-[2rem] px-5 py-4">Withdraw
                                                         Money</button>
                                                 </div>
@@ -790,6 +790,9 @@
 
         <!-- Add Money. -->
         <script src="js/add_money.js"></script>
+
+        <!-- Cash out. -->
+        <script src="js/cash_out.js"></script>
 
         <!-- Font awesome kit. -->
         <script src="https://kit.fontawesome.com/1bbb5634e6.js" crossorigin="anonymous"></script>
