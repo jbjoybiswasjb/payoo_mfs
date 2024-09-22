@@ -1,3 +1,33 @@
-function message() {
-    console.log('li');
-}
+// Add money section.
+document.getElementById('add_money_button')
+    .addEventListener('click', function (event) {
+
+        // prevent reading page in form.
+        event.preventDefault();
+
+        // Get pin number.
+        const pinNumber = document.getElementById('pin_number_field').value;
+
+        // Wrong way to valdate pin number.
+        if (pinNumber === '123') {
+
+            // Get main balance.
+            const mainBalanceString = document.getElementById('main_balance_amount').innerText;
+            const mainBalanceNumber = parseInt(mainBalanceString);
+
+            // Get amount to add.
+            const amountToAddString = document.getElementById('amount_to_add').value;
+            const amountToAddNumber = parseInt(amountToAddString);
+
+
+            const afterAddMoney = mainBalanceNumber + amountToAddNumber;
+
+            document.getElementById('main_balance_amount').innerText = afterAddMoney;
+        }
+
+        else {
+            alert('Please give the correct pin.');
+            location.reload();
+        }
+
+    })
