@@ -8,6 +8,9 @@ document.getElementById('add_money_button')
         // Get pin number.
         const pinNumber = document.getElementById('pin_number_field').value;
 
+        const amountToAddString = document.getElementById('amount_to_add').value;
+        console.log(typeof amountToAddString);
+
         // Wrong way to valdate pin number.
         if (pinNumber === '123') {
 
@@ -26,7 +29,7 @@ document.getElementById('add_money_button')
         }
 
         else {
-            alert('Please give the correct pin.');
+            alert('Failed to add money. Please try again later.');
             location.reload();
         }
 
